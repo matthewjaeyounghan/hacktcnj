@@ -95,3 +95,24 @@
         opacity: 1;
     }
 }
+
+.let-s-talk-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-3 {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button-3:hover {
+    background-color: #0056b3;
+}

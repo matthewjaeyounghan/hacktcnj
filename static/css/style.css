@@ -329,13 +329,8 @@ button {
   }
 }
 
-.home .image-2 {
-  animation: spin 8s linear infinite;
-  transform-origin: center center;
-}
-
-
 .home .image,
+.home .image-2,
 .home .image-5 {
   animation: spin 10s linear infinite;
   transform-origin: center center;
@@ -488,7 +483,6 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 .home .ellipse-2 {
@@ -498,7 +492,6 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 .home .ellipse-3 {
@@ -508,7 +501,6 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
-  border-radius: 50%;
 }
 
 .home .text-wrapper-10 {

@@ -14,7 +14,6 @@ app = Flask(__name__)
 app.secret_key = env.get("APP_SECRET_KEY")
 print("APP_SECRET_KEY:", env.get("APP_SECRET_KEY"))
 
-
 oauth = OAuth(app)
 
 oauth.register(
@@ -48,7 +47,8 @@ def callback():
 def login():
     redirect_uri = url_for("callback", _external=True)
     print(f"Login redirecting to: {redirect_uri}")  # Debugging
-    return redirect("/chat")
+    return oauth.auth0.authorize_redirect(redirect_uri=redirect_uri)
+
 
 @app.route("/chat")
 def chat():
