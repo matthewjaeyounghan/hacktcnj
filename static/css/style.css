@@ -236,6 +236,10 @@ button {
   font-weight: 600;
   font-family: "Inter-Bold", Helvetica;
   color: #1e1e1e;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: easein 4s;
+  animation-delay: 0.7s;
+  animation-fill-mode: forwards; /* Ensure the element stays at opacity 1 */
 }
 
 .home .button-3:hover {
@@ -266,6 +270,17 @@ button {
   height: 16px;
 }
 
+@keyframes easein {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .home .t-cubed {
   position: absolute;
   width: 498px;
@@ -279,6 +294,9 @@ button {
   text-align: center;
   letter-spacing: -2.16px;
   line-height: 86.4px;
+  opacity: 0; /* Set initial opacity to 0 */
+  animation: easein 4s;
+  animation-fill-mode: forwards; /* Ensure the element stays at opacity 1 */
 }
 
 
