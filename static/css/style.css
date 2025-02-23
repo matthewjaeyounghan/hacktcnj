@@ -157,12 +157,14 @@ button {
   overflow: hidden;
   border: 1px solid;
   border-color: #faf9f6;
+  font-weight: 600;
   font-family: "Inter-Bold", Helvetica;
   color: #1e1e1e;
 }
 
 .home .button:hover {
   background-color: #91b3e3;
+  border-color: #91b3e3;
   color: #1e1e1e;
 }
 
@@ -231,12 +233,14 @@ button {
   overflow: hidden;
   border: 1px solid;
   border-color: #2c2c2c;
+  font-weight: 600;
   font-family: "Inter-Bold", Helvetica;
   color: #1e1e1e;
 }
 
 .home .button-3:hover {
   background-color: #91b3e3;
+  border-color: #91b3e3;
   color: #1e1e1e;
 }
 
@@ -382,12 +386,14 @@ button {
   overflow: hidden;
   border: 1px solid;
   border-color: #faf9f6;
+  font-weight: 600;
   font-family: "Inter-Bold", Helvetica;
   color: #1e1e1e;
 }
 
-.home button-wrapper:hover {
+.home .button-wrapper:hover {
   background-color: #91b3e3;
+  border-color: #91b3e3;
   color: #1e1e1e;
 }
 
