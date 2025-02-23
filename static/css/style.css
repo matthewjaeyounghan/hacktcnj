@@ -230,6 +230,11 @@ button {
   color: #1e1e1e;
 }
 
+.home .button-3:hover {
+  background-color: #91b3e3;
+  color: #1e1e1e;
+}
+
 .home .button-4 {
   all: unset;
   box-sizing: border-box;
