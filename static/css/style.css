@@ -152,12 +152,17 @@ button {
   top: 866px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #91b3e3;
+  background-color: #faf9f6;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid;
-  border-color: #3480eb;
+  border-color: #faf9f6;
   font-family: "Inter-Bold", Helvetica;
+  color: #1e1e1e;
+}
+
+.home .button:hover {
+  background-color: #91b3e3;
   color: #1e1e1e;
 }
 
@@ -372,12 +377,17 @@ button {
   position: absolute;
   top: 34px;
   left: 1375px;
-  background-color: #91b3e3;
+  background-color: #faf9f6;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid;
-  border-color: #3480eb;
+  border-color: #faf9f6;
   font-family: "Inter-Bold", Helvetica;
+  color: #1e1e1e;
+}
+
+.home button-wrapper:hover {
+  background-color: #91b3e3;
   color: #1e1e1e;
 }
 
