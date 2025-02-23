@@ -368,13 +368,18 @@ button {
 }
 
 .home .image-2 {
-  animation: spin 8s linear infinite;
+  animation: spin 9s linear infinite;
   transform-origin: center center;
 }
 
-.home .image,
+.home .image {
+  animation: spin 11s linear infinite;
+  transform-origin: center center;
+}
+
+
 .home .image-5 {
-  animation: spin 10s linear infinite;
+  animation: spin 7s linear infinite;
   transform-origin: center center;
 }
 
@@ -384,7 +389,7 @@ button {
 }
 
 .home .image-4 {
-    animation: spin 10s linear infinite reverse;
+    animation: spin 13s linear infinite reverse;
     transform-origin: center center;
 }
 
