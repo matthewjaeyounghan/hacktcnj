@@ -267,26 +267,15 @@ button {
   line-height: 86.4px;
 }
 
-@keyframes textanimation {
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
 
 .home .text-wrapper-2 {
   color: #3480eb;
   letter-spacing: -1.56px;
-  animation-name: textanimation;
-  animation-duration: 2s;
-  animation-iteration-count: 1;
 }
 
 .home .text-wrapper-3 {
   color: #faf9f6;
   letter-spacing: -1.56px;
-  animation-name: textanimation;
-  animation-duration: 2s;
-  animation-delay: 2s;
-  animation-iteration-count: 1;
 }
 
 .home .image {
