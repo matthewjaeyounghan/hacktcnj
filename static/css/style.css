@@ -314,7 +314,7 @@ button {
 
 .home .image-5 {
     top: 0px;
-    left: 823px;
+    left: 1023px;
     scale: 30%;
     position: absolute;
     object-fit: cover;
@@ -483,6 +483,7 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .home .ellipse-2 {
@@ -492,6 +493,7 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .home .ellipse-3 {
@@ -501,6 +503,7 @@ button {
   height: 208px;
   top: 160px;
   object-fit: cover;
+  overflow: hidden;
 }
 
 .home .text-wrapper-10 {
