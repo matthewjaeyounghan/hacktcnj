@@ -356,20 +356,33 @@ button {
 @keyframes spin {
   0% {
     transform: rotate(0deg) translateX(100px) rotate(0deg);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
   }
   100% {
     transform: rotate(360deg) translateX(100px) rotate(-360deg);
+    opacity: 0;
   }
 }
 
+.home .image-2 {
+  animation: spin 8s linear infinite;
+  transform-origin: center center;
+}
+
 .home .image,
-.home .image-2,
 .home .image-5 {
   animation: spin 10s linear infinite;
   transform-origin: center center;
 }
 
-.home .img,
+.home .img {
+  animation: spin 8s linear infinite reverse;
+  transform-origin: center center;
+}
+
 .home .image-4 {
     animation: spin 10s linear infinite reverse;
     transform-origin: center center;
