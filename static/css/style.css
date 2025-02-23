@@ -34,7 +34,7 @@ button {
 }
 
 .home {
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -42,7 +42,7 @@ button {
 }
 
 .home .div {
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   width: 100%;
   max-width: 1512px;
   height: 100%;
@@ -91,7 +91,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Bold", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   text-align: right;
   letter-spacing: -0.72px;
@@ -117,7 +117,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Bold", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   letter-spacing: -0.72px;
   line-height: 38.4px;
@@ -132,7 +132,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   text-align: center;
   letter-spacing: -0.72px;
@@ -152,13 +152,13 @@ button {
   top: 866px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #fae1fa;
+  background-color: #1e1e1e;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid;
-  border-color: #f19edc;
+  border-color: #3480eb;
   font-family: "Inter-Bold", Helvetica;
-  color: black;
+  color: #faf9f6;
 }
 
 .home .button-2 {
@@ -168,7 +168,7 @@ button {
   width: fit-content;
   margin-top: -2.00px;
   text-shadow: 0px 4px 4px #00000040;
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 1px #faf9f6;
   font-family: var(--single-line-body-base-font-family);
   font-weight: var(--single-line-body-base-font-weight);
   color: #1e1e1e;
@@ -195,7 +195,7 @@ button {
   height: 881px;
   top: 99px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #1e1e1e;
 }
 
 .home .let-s-talk-button {
@@ -227,7 +227,7 @@ button {
   border: 1px solid;
   border-color: #2c2c2c;
   font-family: "Inter-Bold", Helvetica;
-  color: #ffffff;
+  color: #1e1e1e;
 }
 
 .home .button-4 {
@@ -268,12 +268,12 @@ button {
 }
 
 .home .text-wrapper-2 {
-  color: #f19edc;
+  color: #3480eb;
   letter-spacing: -1.56px;
 }
 
 .home .text-wrapper-3 {
-  color: #000000;
+  color: #faf9f6;
   letter-spacing: -1.56px;
 }
 
@@ -348,9 +348,9 @@ button {
   height: 99px;
   top: 0;
   left: 0;
-  background-color: #ffffff;
+  background-color: #1e1e1e;
   overflow: hidden;
-  border-bottom-color: black;
+  border-bottom-color: #faf9f6;
   border-bottom-width: 10px;
 }
 
@@ -366,13 +366,13 @@ button {
   position: absolute;
   top: 34px;
   left: 1375px;
-  background-color: #fae1fa;
+  background-color: #91b3e3;
   border-radius: 8px;
   overflow: hidden;
   border: 1px solid;
-  border-color: #f19edc;
+  border-color: #3480eb;
   font-family: "Inter-Bold", Helvetica;
-  color: black;
+  color: #1e1e1e;
 }
 
 .home .p {
@@ -391,12 +391,12 @@ button {
 }
 
 .text-wrapper-4 {
-  color: #f19edc;
+  color: #3480eb;
   letter-spacing: -0.39px;
 }
 
 .text-wrapper-5 {
-  color: #000000;
+  color: #faf9f6;
   letter-spacing: -0.39px;
 }
 
@@ -423,7 +423,7 @@ button {
   left: 37px;
   font-family: "Inter-Bold", Helvetica;
   font-weight: 700;
-  color: #000000;
+  color: #faf9f6;
   font-size: 36px;
   text-align: center;
   letter-spacing: -1.08px;
@@ -438,7 +438,7 @@ button {
   left: 188px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 32px;
   text-align: center;
   letter-spacing: -0.96px;
@@ -453,7 +453,7 @@ button {
   left: 676px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 32px;
   text-align: center;
   letter-spacing: -0.96px;
@@ -468,7 +468,7 @@ button {
   left: 1164px;
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 32px;
   text-align: center;
   letter-spacing: -0.96px;
@@ -511,7 +511,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   text-align: center;
   letter-spacing: -0.72px;
@@ -526,7 +526,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   text-align: center;
   letter-spacing: -0.72px;
@@ -541,7 +541,7 @@ button {
   transform: translateX(-50%);
   font-family: "Inter-Regular", Helvetica;
   font-weight: 400;
-  color: #000000;
+  color: #faf9f6;
   font-size: 24px;
   text-align: center;
   letter-spacing: -0.72px;
